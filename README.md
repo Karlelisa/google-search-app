@@ -13,13 +13,13 @@ The Google Books Search App has the below 2 pages:
 2. A Saved page- Renders all books saved to the Mongo database. User has an option to "View" the book, bringing them to the book on Google Books, or "Delete" a book, removing it from the Mongo database.
 
 ## Technologies used
-React
-MongoDB
-Mongoose
-Express
-API
-Axios
-Node
+* React
+* MongoDB
+* Mongoose
+* Express
+* API
+* Axios
+* Node
 
 ## My React App Link
 Click on the below link to view my Google Books Search App. Once on the app, type a name of a book in the search field and click on the search button to see the results.
