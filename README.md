@@ -41,7 +41,6 @@ Click on the below link to view my Google Books Search App. Once on the app, typ
 ![My Google Seaarch App Saved Page screenshot](/public/images/my-google-books-search-cover-page.png)
 
 
-### My Google Seaarch App Saved Page Displaying More Saved Books:
-![My Google Seaarch App Search Page Displaying More Saved Books screenshot](/public/images/my-google-books-search-cover-page.png)
+
 
 
