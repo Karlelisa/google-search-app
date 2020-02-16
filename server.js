@@ -1,11 +1,12 @@
 // Cited In class Activity: https://harvard.bootcampcontent.com/Harvard-Coding-Boot-Camp/hu-cam-fsf-pt-09-2019-u-c/tree/master/Week_20/20-react/01-Activities/11-Stu_ReactRouter/Solved
 
-const express = require("express");
-
+const express = require("express")
 const mongoose = require("mongoose");
 const routes = require("./routes");
 const app = express();
 const PORT = process.env.PORT || 3001;
+
+require('dotenv').config()
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));

@@ -1,9 +1,15 @@
 import axios from "axios";
 
+const BASEURL = "https://www.googleapis.com/books/v1/volumes?q=";
+
+const APIKEY = "&api_key=GOOGLE_API_KEY";
+
+
 export default {
   // https://developers.google.com/books/docs/v1/getting_started
   getBook: function (query) {
-    return axios.get(`https://www.googleapis.com/books/v1/volumes?q=${query}`);
+    // return axios.get(`https://www.googleapis.com/books/v1/volumes?q=${query}`);
+    return axios.get(BASEURL + query + APIKEY);
   },
   // Saves a book to the database
   saveBook: function (bookData) {
