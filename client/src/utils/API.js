@@ -1,8 +1,8 @@
 import axios from "axios";
 
 const BASEURL = "https://www.googleapis.com/books/v1/volumes?q=";
-
-const APIKEY = "&api_key=GOOGLE_API_KEY";
+const APIKEY = "&api_key=AIzaSyCTf4_8ru7xfkzXEy1GomsYHCDCYokPPAI&limit=10";
+// const APIKEY = "&api_key=GOOGLE_API_KEY";
 
 
 export default {
